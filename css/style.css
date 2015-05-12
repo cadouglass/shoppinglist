@@ -73,3 +73,27 @@
 	font-family: source sans pro;
 	font-size: 20px;
 }
+
+#list {
+	list-style-type: none;
+}
+
+#item {
+	width: 550px;
+	height: 25px;
+	background-color: white;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-radius: 6px;
+	border: 2px solid #4A4A4A;
+	color: #4A4A4A;
+	font-family: source sans pro;
+	font-size: 20px;
+	margin-top: 15px;
+	margin-left: -38px;
+}
+
+.2 {
+	color: red!important;
+}
