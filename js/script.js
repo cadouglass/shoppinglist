@@ -1,14 +1,13 @@
-$("#add-items").keydown(function(event) {
+$(document).ready(function() {
+	$('#add-items').keydown(function(event) {
+			if (event.which === 13) {
+			var addItem = $('#add-items').val();
+			$('#list').prepend('<li>'+addItem+'</li>');
+			}
+		});
 
-	var enterWasPressed = event.which === 13;
+	$('ul').on('click','li',function(event){
+		$(this).toggleClass('checked');
+	});
 
-	if(enterWasPressed) {
-		
-	 	var textValue = $("#add-items").val();
-
-	 	$("#list").prepend("<li>" + textValue + "</li>");
-
-
-	}
-	 
 });
