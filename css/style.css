@@ -105,6 +105,7 @@ li {
 	background-color: #EFEFEF;
 	color: #AFAFB4;
 	border: 1px solid #AFAFB4;
+	text-decoration: line-through;
 }
 
 #delete {
