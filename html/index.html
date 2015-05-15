@@ -6,8 +6,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<script src="http://code.jquery.com/jquery.min.js"></script>
-	<script src="js/script.js"></script>
+	
 </head>
 <body>
 	<div class="container">
@@ -29,19 +28,16 @@
 	<div>
 		<input id="add-items" type="text" name="add-items" autocomplete="off" placeholder="Enter items here">
 		<ul id="list">
-			<li>
-				<input id="item" type="text" name="item" autocomplete="off" placeholder="Banana">
-			</li>
-			<li>
-				<input id="item" type="text" name="item" autocomplete="off" placeholder="Apples">
-			</li>
-			<li>
-				<input id="item" type="text" name="item" autocomplete="off" placeholder="Chocolate">
-			</li>
-			<li>
-				<input id="item" type="text" name="item" autocomplete="off" placeholder="Marshmallows">
-			</li>
+			<li>Bananas</li>
+			<li>Chocolate</li>
+			<li class="checked">Marshmallows</li>
+			<li class="checked">Strawberries</li>
+			<li class="checked">Soap <img id="delete" src="..//images/delete_button.png"></li>
 		</ul>
 	</div>
+
+
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="../js/script.js"></script>
 </body>
 </html>
